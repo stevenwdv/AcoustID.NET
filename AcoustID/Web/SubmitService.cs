@@ -18,9 +18,9 @@ namespace AcoustID.Web
     /// </summary>
     public class SubmitService
     {
-        private const string URL = "http://api.acoustid.org/v2/submit";
+        private const string URL = "https://api.acoustid.org/v2/submit";
 
-        private const string STATUS_URL = "http://api.acoustid.org/v2/submission_status";
+        private const string STATUS_URL = "https://api.acoustid.org/v2/submission_status";
 
         private IResponseParser parser;
 

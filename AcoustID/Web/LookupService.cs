@@ -17,7 +17,7 @@ namespace AcoustID.Web
     /// </summary>
     public class LookupService
     {
-        private const string URL = "http://api.acoustid.org/v2/lookup";
+        private const string URL = "https://api.acoustid.org/v2/lookup";
 
         private IResponseParser parser;
 
